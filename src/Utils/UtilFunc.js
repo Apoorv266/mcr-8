@@ -7,7 +7,6 @@ export const compareDate = (date) =>{
 
 export const getDateTimeFunc = (str) =>{
 const dateTime = new Date(str);
-
 const year = dateTime.getFullYear();
 const month = dateTime.getMonth() + 1; // Months are zero-based, so we add 1
 const day = dateTime.getDate();
