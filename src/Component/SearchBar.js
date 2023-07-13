@@ -7,7 +7,8 @@ const SearchBar = () => {
   return (
     <div className='filter-main'>
       <h1>Meetup events</h1>
-      <select onChange={(e) => setdropDown(e.target.value)}>
+      <select onChange={(e) => setdropDown(e.target.value)} value={"default"}>
+      <option disabled value={'default'}>Search event type</option>
         <option value="Both">Both</option>
         <option value="Offline">Offline</option>
         <option value="Online">Online</option>

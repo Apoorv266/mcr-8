@@ -11,7 +11,7 @@ const RenderComponent = ({item}) => {
       <img
         src={item.eventThumbnail}
         alt=""
-        srcset=""
+        srcSet=""
         width={"400px"}
         className="card-img"
       />

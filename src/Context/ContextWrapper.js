@@ -22,8 +22,6 @@ const ContextWrapper = ({ children }) => {
     setdataArr(array)
   }
 
-  console.log(filterData)
-
   return (
     <contextData.Provider value={{ filterData, setdropDown, setinputField , inputField, dataArr, handleSubmit}}>{children}</contextData.Provider>
   )
