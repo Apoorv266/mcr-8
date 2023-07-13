@@ -1,0 +1,36 @@
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+
+.card-main{
+    position: relative;
+    text-align: center;
+}
+
+.event-type{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-img{
+    border-radius: 5px;
+}
+
+.time-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

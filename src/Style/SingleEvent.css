@@ -1,0 +1,31 @@
+.event-main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.left-main{
+    flex-basis: 50%;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-main{
+    margin-top: 30px;
+}
+.right-details{
+    height: 200px;
+    background-color: #FEFFFF;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 5px;
+}
