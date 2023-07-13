@@ -8,7 +8,6 @@ const LeftCard = ({eventObj}) => {
         <p>Hosted by:</p>
         <h3>{hostedBy}</h3>
         <img src={eventThumbnail} alt="" srcSet="" width={"500px"}/>
-        <p>Marketing experts</p>
         <h1>Details : </h1>
         <p>
      {eventDescription}

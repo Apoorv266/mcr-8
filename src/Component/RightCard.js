@@ -38,7 +38,7 @@ const RightCard = ({ eventObj, setmodal }) => {
       {compareDate(eventStartTime) ? (
         ""
       ) : isRSVP ? (
-        <button>Already RSVP</button>
+        <button>Already RSVPed</button>
       ) : (
         <button onClick={() => setmodal(true)}>RSVP</button>
       )}
