@@ -17,9 +17,9 @@ const Modal = ({ setmodal, id , isPaid}) => {
         </span>
         <div className="form-content">
           <p>Name:</p>
-          <input type="text" />
+          <input type="text" placeholder="enter name!"/>
           <p>Email:</p>
-          <input type="text" />
+          <input type="text" placeholder="enter email!"/>
           {isPaid && <p>You have to make payment at the event*</p>}
           <button onClick={handleClick}>RSVP</button>
         </div>

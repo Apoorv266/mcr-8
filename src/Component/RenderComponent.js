@@ -12,7 +12,6 @@ const RenderComponent = ({item}) => {
         src={item.eventThumbnail}
         alt=""
         srcSet=""
-        width={"400px"}
         className="card-img"
       />
       <div className="time-card">

@@ -16,10 +16,12 @@ const RightCard = ({ eventObj, setmodal }) => {
             getDateTimeFunc(eventEndTime).time
           }`}
         </p>
-        <p>{address}</p>
-        <p>Rs {price}</p>
+        {address && <p>{address}</p>}
+        <p>{price === "Free" ? price : `Rs ${price}`}</p>
       </div>
-      <h1>Speakers ({speakers.length})</h1>
+
+      {speakers.length > 0 && <>
+        <h1>Speakers ({speakers.length})</h1>
       <div className="speakers-main">
         {speakers.map((val) => {
           return (
@@ -31,6 +33,8 @@ const RightCard = ({ eventObj, setmodal }) => {
           );
         })}
       </div>
+      </>}
+      
       {compareDate(eventStartTime) ? (
         ""
       ) : isRSVP ? (

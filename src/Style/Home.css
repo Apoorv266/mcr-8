@@ -26,6 +26,9 @@
 
 .card-img{
     border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .time-card{

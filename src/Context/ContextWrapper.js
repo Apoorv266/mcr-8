@@ -23,7 +23,7 @@ const ContextWrapper = ({ children }) => {
   }
 
   return (
-    <contextData.Provider value={{ filterData, setdropDown, setinputField , inputField, dataArr, handleSubmit}}>{children}</contextData.Provider>
+    <contextData.Provider value={{ filterData, setdropDown, setinputField , inputField, dataArr, handleSubmit, dropDown}}>{children}</contextData.Provider>
   )
 }
 
