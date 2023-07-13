@@ -17,6 +17,9 @@ const LeftCard = ({eventObj}) => {
         <p><strong>Dress Code : </strong>{dressCode}</p>
         <p><strong>Age restrictions : </strong>{ageRestrictions}</p>
         <h1>Event Tags</h1>
+        <div className='tag-wrapper'>
+        {eventTags?.map((item) => <div className='tags-main'>{item}</div>)}
+        </div>
     </div>
   )
 }
