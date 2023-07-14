@@ -17,7 +17,7 @@ const RenderComponent = ({item}) => {
       <div className="time-card">
       <p>{getDateTimeFunc(item.eventStartTime).day}</p>
       <p>{getDateTimeFunc(item.eventStartTime).date}</p>
-      <p>{getDateTimeFunc(item.eventStartTime).time}</p>
+      <p>{getDateTimeFunc(item.eventStartTime).time} IST</p>
       </div>
     
       <h2>{item.title}</h2>
