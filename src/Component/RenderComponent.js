@@ -15,6 +15,7 @@ const RenderComponent = ({item}) => {
         className="card-img"
       />
       <div className="time-card">
+      <p>{getDateTimeFunc(item.eventStartTime).day}</p>
       <p>{getDateTimeFunc(item.eventStartTime).date}</p>
       <p>{getDateTimeFunc(item.eventStartTime).time}</p>
       </div>
