@@ -16,7 +16,6 @@ export const getDateTimeFunc = (str) => {
     const formattedMinutes = ("0" + minutes).slice(-2);
     const amOrPm = hours >= 12 ? "PM" : "AM";
     const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ]
-    
-    return { day: weekDays[weekday], date: `${year}-${month}-${day}`, time: `${hours}:${formattedMinutes} ${amOrPm}` }
 
+    return { day: weekDays[weekday], date: `${year}-${month}-${day}`, time: `${hours}:${formattedMinutes} ${amOrPm}` }
 }
